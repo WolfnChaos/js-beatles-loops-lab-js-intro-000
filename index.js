@@ -21,7 +21,7 @@ function johnLennonFacts(array) {
 
   while (i < facts.length) {
     i += 1
-    array.push(fasts[i] + `!!!`)
+    array.push(facts[i] + `!!!`)
   }
   return array
 }
